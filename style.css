@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Poppins', italic;
+}
+
+
+body{
+    background-color: #021e33;
+    height: 100vh;
+}
+
+
+.interface{
+     max-width: 1280px;
+     margin: 0 auto;
+     margin-top: 10%;
+}
+
+
+.flex{
+    display: flex;
+}
+
+section.topositeTxt{
+    padding: 40px 4%;
+}
+
+
+section.topositeTxt .flex{
+    align-items: center;
+    justify-items: center;
+    gap: 150px;
+
+}
+
+
+.topositeTxt h1{
+    color: #fff;
+    font-size: 33px;
+    line-height: 40px;
+}
+
+
+
+
+.topositeTxt p{
+    color: #fff;
+    font-size: 23px;
+    line-height: 30px;
+    margin: 40px 0;
+}
+
+
+
+.image_top img{
+    height: 417px;
+    width: 450px;
+    border-radius: 50px;
+}
